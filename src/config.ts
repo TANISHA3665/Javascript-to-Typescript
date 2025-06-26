@@ -4,6 +4,7 @@ dotenv.config()
 
 export const environment = process.env.NODE_ENV
 export const port = process.env.PORT
+export const logDirectory = process.env.LOGDIRECTORY
 
 export const db = {
   name: process.env.DB_NAME || "",
